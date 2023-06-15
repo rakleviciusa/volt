@@ -30,7 +30,7 @@ li {
     display: flex;
     justify-content: center;
     gap: 1em;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding: 1em;
 }
 
@@ -75,4 +75,14 @@ li {
 
 .services:hover .dropdown {
     display: block;
+}
+
+.logout-btn {
+    font-family: inherit;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255, 0);
+    cursor: pointer;
+    text-transform: uppercase;
 }
