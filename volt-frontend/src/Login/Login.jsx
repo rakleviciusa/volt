@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { useState } from 'react'
 import AuthContext from '../context/AuthContext'
+import '../Register/RegisterForm.scss'
 
 function Login() {
   const [username, setUsername] = useState('')
@@ -18,10 +19,10 @@ function Login() {
   }
 
   return (
-    <div>
-        <h2>Log In</h2>
-        <div className='form'>
-            <div>
+    <div className='register-container login-container'>
+        <div className='form register-form'>
+          <h2>Log In</h2>
+            <div className='register-input'>
                 <label htmlFor="username">Username</label>
                 <input 
                   type="text" 
@@ -29,10 +30,10 @@ function Login() {
                   value={username}
                   onChange={e => setUsername(e.target.value)}/>
             </div>
-            <div>
+            <div className='register-input'>
                 <label htmlFor="password">Password</label>
                 <input 
-                  type="text" 
+                  type="password" 
                   id='password'
                   value={password}
                   onChange={e => setPassword(e.target.value)}/>

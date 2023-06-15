@@ -48,7 +48,7 @@ function Register() {
                 <input 
                     type="text" 
                     id='username'
-                    placeholder='JohnnyBravo'
+                    placeholder='Your Username'
                     value={username} 
                     onChange={e => setUsername(e.target.value)}/>
             </div>

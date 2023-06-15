@@ -26,6 +26,10 @@ function AdminPage() {
       .then((data) => {
         console.log(data);
       });
+
+    setTitle("")
+    setQuantity(0)
+    setDescription("")
   };
 
   return (

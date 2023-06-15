@@ -5,7 +5,6 @@ $button-background: rgb(40, 107, 253);
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .register-form, .register-input {
@@ -46,10 +45,19 @@ $button-background: rgb(40, 107, 253);
     margin-top: 1em;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .register-input > label {
     letter-spacing: 0.8px;
     color: rgb(97, 97, 97);
     font-weight: 700;
+}
+
+.login-container {
+    height: 50vh;
+}
+
+.register-form > button:hover {
+    background-color: rgb(2, 8, 90);
 }
