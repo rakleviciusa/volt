@@ -42,7 +42,6 @@ function HomePage() {
     fetchMeals();
   }, []);
 
-  console.log(meals);
 
   return (
     <div>

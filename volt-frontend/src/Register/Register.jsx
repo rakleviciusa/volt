@@ -23,7 +23,6 @@ function Register() {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 setRedirection(true)
                 navigate('/login');
             })
